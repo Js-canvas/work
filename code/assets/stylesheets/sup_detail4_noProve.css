@@ -1,0 +1,203 @@
+#supDetail4No .header{
+    width:100%;
+    height:41px;
+}
+#supDetail4No .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+    overflow-y: scroll;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.orderStateBox,.orderInfoBox,.orderDetailBox,.orderMesBox{
+    width: 100%;
+    height: auto;
+}
+/*第一部分*/
+.txt1,.state{
+    display: inline-block;
+    font:15px/15px '微软雅黑';
+    width: auto;
+    height: 15px;
+    margin-top:21px;
+}
+.txt2{
+    font:12px/12px '微软雅黑';
+    height: 12px;
+    width: auto;
+    margin-top:10px;
+    display: block;
+}
+.stateBtn{
+    width: 100%;
+    height: 30px;
+    margin-top:23px;
+    margin-bottom:15px;
+}
+.agree{
+    width: 21%;
+    height: 30px;
+    border:0;
+    color: #ffffff;
+    font-size: 10px;
+    margin:0 auto;
+}
+/*第二部分*/
+.orderInfoBox>div>span{
+    display: inline-block;
+    width: auto;
+    height: 12px;
+    font:12px/12px '微软雅黑';
+    margin-top:10px;
+}
+.tit1,.tit2,.tit3{
+    margin-left:4%;
+}
+.contentSup{
+    width: 80px;
+    height: 30px;
+    border:0;
+    color: #ffffff;
+    margin-right:4%;
+    font-size: 10px;
+}
+.phoneNum{
+    margin-right:4%;
+}
+.tit3,.repayDate{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+/*第三部分*/
+.orderDetailBox{
+    margin-top:15px;
+}
+.mes1,.mes2,.mes3,.mes4,.mes7,.mes8,.mes9,.mes10,.mes11{
+    font:12px/12px '微软雅黑';
+    height: 12px;
+    width: auto;
+    margin-left:4%;
+    margin-top:10px;
+    display: inline-block;
+}
+.mes4{
+    margin-bottom: 10px;
+}
+.mes5,.mes6{
+    font:12px/12px '微软雅黑';
+    display: inline-block;
+    height: 12px;
+    width: auto;
+    margin:10px 4% 0 4%;
+}
+.mes5,.mes7,.mes11{
+    margin-bottom:10px;
+}
+.proName,.proPrice,.proNum,.proSum,.transMoney,.sumMoney,.dayNum,.repayMan,.bankCardNum,.repayDataNum,.repayMon{
+    clear: both;
+    display: inline-block;
+    font:12px/12px '微软雅黑';
+    height: 12px;
+    width: auto;
+    float: right;
+    margin-right: 7%;
+    margin-top:10px;
+}
+.posr{
+    position: relative;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    line-height: 15px;
+    top:8px;
+    right:1%;
+}
+.icon>img{
+    width: 15px;
+    height: 15px;
+}
+.transMoney,.sumMoney{
+    margin-top:10px;
+}
+/*第四部分*/
+.orderMesBox{
+    padding-top:10px;
+}
+.info1,.info2,.info3,.info4,.orderCode,.orderUser,.orderTime,.orderWay{
+    font:12px/12px '微软雅黑';
+    color:#666;
+    height: 12px;
+    width: auto;
+    margin:10px 0 0 4%;
+}
+.info4{
+    margin-bottom: 20px;
+}
+/*透明层*/
+#opacityDiv{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.15);
+    z-index: 10;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+/*提示框*/
+.askAlert{
+    width: 70%;
+    height: 35%;
+    position: absolute;
+    top:25%;
+    left:15%;
+    background: #ffffff;
+    z-index: 15;
+    display: none;
+}
+.alertTit{
+    display: block;
+    width: auto;
+    height: auto;
+    margin:15px 8px;
+    color:#ff0000;
+}
+.infoMessage{
+    width: auto;
+    height: auto;
+    margin:15px 8px;
+}
+.yesBtn{
+    width: 30%;
+    height: 28px;
+    position: absolute;
+    left:35%;
+    bottom:10%;
+    border:1px solid #ff9900;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+
+
+

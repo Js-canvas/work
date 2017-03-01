@@ -1,0 +1,202 @@
+#supAmount .header{
+    width:100%;
+    height:41px;
+}
+#supAmount .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+    overflow-y: scroll;;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+/*百分比插件*/
+.circle{
+    width: 100%;
+    height: 160px;
+    position: relative;
+}
+#myStat{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+.info{
+    display: block;
+    width: 120px;
+    height: 12px;
+    font:12px/12px '微软雅黑';
+    position: absolute;
+    left:52%;
+    top:60%;
+    margin-left:-60px;
+}
+.overMoney{
+    display: block;
+    width: 120px;
+    height: 14px;
+    font:14px/14px '微软雅黑';
+    position: absolute;
+    left:52%;
+    top:50%;
+    margin-left:-60px;
+    margin-top:-12px;
+}
+.timer{
+    display: none;
+}
+.circle a{
+    display: block;
+    width: auto;
+    height: 12px;
+    font:12px/12px '微软雅黑';
+    color: #ff9900;
+    position: absolute;
+    right:6%;
+    bottom:25px;
+}
+/*提交申请*/
+.infoBox{
+    width: 100%;
+    height: 163px;
+}
+.infoBox>p{
+    width: 100%;
+    height: 43px;
+    display: flex;
+}
+.infoBox>p>i{
+    flex: 1;
+    margin-top:15px;
+    display: inline-block;
+    line-height: 12px;
+}
+.tit2{
+    flex: 4;
+    width: auto;
+    height: 14px;
+    font:14px/14px '微软雅黑';
+    margin:14px 0 0 6%;
+}
+.sumAmount{
+    flex: 4;
+    font-weight: bold;
+    width: auto;
+    height: 15px;
+    font:15px/15px '微软雅黑';
+    display: inline-block;
+    margin-top:14px;
+}
+.icon{
+    flex: 1;
+    margin-top:15px;
+    display: inline-block;
+    line-height: 12px;
+}
+.icon>img{
+    width: 12px;
+    height: 12px;
+    margin-right:50%;
+    float: right;
+}
+#advAmount{
+    flex: 4;
+}
+.okBtn{
+    margin:30px 10%;
+    border-radius: 2px;
+}
+/*申请记录*/
+.appRecord{
+    width: 100%;
+    height:auto ;
+    margin-top:8px;
+}
+.tit3{
+    width: 90%;
+    height: 37px;
+    font:13px/37px '微软雅黑';
+    padding-left:10%;
+}
+.listHeader{
+    width: 100%;
+    height: 29px;
+    font:11px/29px '微软雅黑';
+    display: flex;
+}
+.listHeader>span{
+    text-align: center;
+    flex:1
+}
+.appRecord>ul{
+    width: 100%;
+    height: auto;
+}
+.appRecord>ul>li{
+    width: 100%;
+    height: 29px;
+    font:11px/29px '微软雅黑';
+    border-bottom:1px solid #666;
+    border-color: rgba(102,102,102,0.6);
+    display: flex;
+}
+.appRecord>ul>li>span{
+    flex: 1;
+    text-align: center;
+}
+/*透明层*/
+#opacityDiv{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.15);
+    z-index: 10;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+/*提示框*/
+.askAlert{
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    top:25%;
+    left:15%;
+    background: #ffffff;
+    z-index: 15;
+    display: none;
+}
+.infoMessage{
+    width: auto;
+    height: auto;
+    margin:15px 8px;
+}
+.yesBtn{
+    width: 30%;
+    height: 28px;
+    position: absolute;
+    left:35%;
+    bottom:10%;
+    border:1px solid #ff9900;
+    border-radius: 2px;
+    background: #ffffff;
+}

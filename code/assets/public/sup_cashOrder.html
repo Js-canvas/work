@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_cashOrder.css">
+    <link href="//cdn.bootcss.com/circliful/1.0.1/css/jquery.circliful.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="supCashOrder">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback">&lt;</a>
+            <span class="tit">提额申请</span>
+        </div>
+        <!--content-->
+        <div class="content font11">
+            <div class="circle borBom padB19">
+                <span class="tit1 font11">本单可提款金额</span>
+                <div id="myStat">
+                    <p class="overMoney fontMain">¥990000.00</p>
+                </div>
+            </div>
+            <div class="borBom box ">
+                <span class="tit3">订单编号：</span><span class="orderNum">DJ.20161218.001</span>
+            </div>
+            <div class="borBom box">
+                <span class="tit3">还款周期：</span><span class="repayDate">30天</span>
+            </div>
+            <div class="borBom box">
+                <span class="tit3">日利率：</span><span class="dayRate">&ensp;&ensp;0.05%</span><i class="floatR icon"><img src="../images/wenhao.png" alt=""></i>
+            </div>
+            <div class="borBom box">
+                <span class="tit3">实际收入：</span><span class="realGet fontRed">¥9580</span>
+            </div>
+            <div class="borBom borTop box marT15">
+                <span class="tit3">我的银行卡：</span><i class="floatR icon">&gt;</i><span class="bandFlag floatR fontRed font11">已绑定</span>
+            </div>
+            <div class="borBom box">
+                <span class="tit3">登陆密码：</span><input type="password" placeholder="请输入登陆密码确认提款" class="password">
+            </div>
+            <div>
+                <i class="bor invoice floatL"><img src="../images/checked.png" alt=""></i><span class="invoiceFlag floatL">开具发票</span>
+            </div>
+            <div>
+                <button class="okBtn btnStyle">确认提款</button>
+            </div>
+            <div class="txtcen">
+                <span class="readFlag floatL">我已阅读并同意签署以下内容</span><i class="bor readImg floatL"><img src="../images/checked.png" alt=""></i>
+            </div>
+            <div class="txtcen clearB">
+                <a href="javascript:;" class="toBook fontMain">《购销合同》</a>
+            </div>
+            <div class="txtcen clearB">
+                <a href="javascript:;" class="toBook fontMain">《应收账款债权转让通知书》</a>
+            </div>
+        </div>
+        <!--透明层-->
+        <div id="opacityDiv"></div>
+        <!--自定义对话框-->
+        <div class="askAlert">
+            <p class="infoMessage">您的实际可授信总额度,平台有权根据您的客户的信誉度进行调整，最终解释权归平台所有</p>
+            <button class="yesBtn">我知道了</button>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/jquery/1.10.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/circliful/1.0.2/js/jquery.circliful.js"></script>
+<script src="../javascripts/sup_cashOrder.js"></script>
+</html>

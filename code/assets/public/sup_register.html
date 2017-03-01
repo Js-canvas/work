@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_register.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>供货商注册</title>
+</head>
+<body>
+<div id="supRegister">
+    <!--header-->
+    <div class="header bg">
+        <a href="javascript:;" class="reback txtcen">&lt;</a>
+        <span class="tit txtcen">注册</span>
+    </div>
+    <!--content-->
+    <div class="content">
+        <p class="proMes">手机号</p>
+        <input type="text" class="registerInp bor borR" id="phoneNum" placeholder="请输入您的手机号码">
+        <p class="proMes">验证码</p>
+        <input type="text" class="registerInp bor borR" id="messageNum" placeholder="请输入短信验证码">
+        <button id="getNum">获取验证码</button>
+        <input type="submit" class="okBtn btnStyle" value="确定">
+    </div>
+</div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/sup_register.js"></script>
+</html>

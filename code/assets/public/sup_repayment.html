@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>订单中</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_repayment.css">
+</head>
+<body>
+    <div id="supRepayment">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">还款证明提交</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p class="tit1">请填写已还款申请证明详情：</p>
+            <p class="tit2">还款快照：</p>
+            <div class="imgList txtcen">
+                <img src="../images/undefined.png" alt="">
+                <img src="../images/undefined.png" alt="">
+                <img src="../images/undefined.png" alt="">
+                <img src="../images/undefined.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="../images/camera.png" alt="">
+            </div>
+            <div class="posir">
+                <label for="repayWay">还款方式：</label>
+                <input type="text" class="inp bor borR" id="repayWay" placeholder="请填写您向我们还款时的方式如支付宝,银行卡">
+            </div>
+            <div class="posir">
+                <label for="repayMan">还款人：</label>
+                <input type="text" class="inp bor borR" id="repayMan" placeholder="请填写还款人的姓名">
+            </div>
+            <div class="posir">
+                <label for="repayMoney">还款金额：</label>
+                <input type="text" class="inp bor borR" id="repayMoney" placeholder="请填写还款金额">
+            </div>
+            <div class="posir">
+                <label for="repayCode">还款账号：</label>
+                <input type="text" class="inp bor borR" id="repayCode" placeholder="请填写还款账号,如支付宝,银行卡号等">
+            </div>
+            <div>
+                <button class="okBtn btnStyle">提交</button>
+            </div>
+            <p class="tit3">提示：带红色星号的手必填选项，其他可选项，填写越详细审核通过越快</p>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/sup_repayment.js"></script>
+</html>

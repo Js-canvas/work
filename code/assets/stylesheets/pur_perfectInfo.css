@@ -1,0 +1,69 @@
+#supDetail .header{
+    width:100%;
+    height:41px;
+}
+#supDetail .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.registerInp{
+    width:77%;
+    padding-left:3%;
+    height:40px;
+    margin:0 10% 10px 10%;
+    font-size: 12px;
+    display: block;
+}
+#phoneNum{
+    margin-bottom:5px;
+    color:rgba(0,0,0,0.6);
+    background: rgba(128,128,128,0.6);
+}
+.proMes{
+    width:80%;
+    height:12px;
+    line-height: 12px;
+    font-size: 12px;
+    margin:5px 10%;
+}
+.adsInp{
+    width:34.5%;
+    padding-left:3%;
+    height:40px;
+    display: inline-block;
+    margin-bottom:5px;
+}
+#province{
+    margin-left: 10%;
+}
+#city{
+    margin-right:10%;
+}
+.okBtn{
+    font-size: 18px;
+}
+.argeeMes{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+}

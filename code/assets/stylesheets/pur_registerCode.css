@@ -1,0 +1,49 @@
+#purRegisterCode .header{
+    width:100%;
+    height:41px;
+}
+#purRegisterCode .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.inp{
+    width: 79.5%;
+    height: 40px;
+    margin:100px 10% 80px 10%;
+    text-indent: 5px;
+}
+.ask{
+    width: auto;
+    height: 12px;
+    font:12px/12px '微软雅黑';
+    margin:23px 0 0 10%;
+}
+.answer{
+    width: auto;
+    height: 12px;
+    font:12px/12px '微软雅黑';
+    margin:10px 0 0 10%;
+}
+.marT59{
+    margin-top:59px;
+}

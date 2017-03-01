@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_amount.css">
+    <link href="//cdn.bootcss.com/circliful/1.0.1/css/jquery.circliful.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="supAmount">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">提额申请</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <div class="circle borBom">
+                <div id="myStat">
+                    <p class="overMoney fontMain">¥990000.00</p>
+                    <p class="info txtcen fontMain">剩余授信额度</p>
+                </div>
+                <a href="sup_creditRecord.html">授信记录</a>
+            </div>
+            <div class="infoBox">
+                <p class="borBom"><b class="tit2">当前授信总额度:</b><span class="sumAmount">¥1000000.00</span><i class="icon txtcen"><img src="../images/wenhao.png"
+                                                                                                              alt=""></i></p>
+                <p class="borBom"><b class="tit2">提升授信总额度至：</b><input type="text" placeholder="请输入你想提升总额度至" id="advAmount"><i class="txtcen">万</i></p>
+                <button class="okBtn btnStyle">提交申请</button>
+            </div>
+            <div class="appRecord">
+                <p class="tit3 borBom">申请记录</p>
+                <p class="listHeader borBom"><span>授信日期</span><span>状态</span><span>申请额度</span></p>
+                <ul>
+                    <!--数据模板-->
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+                    <li><span>2017.7.1</span><span>18612341234</span><span>¥1000000.00</span></li>
+
+                </ul>
+            </div>
+        </div>
+        <!--透明层-->
+        <div id="opacityDiv"></div>
+        <!--自定义对话框-->
+        <div class="askAlert">
+            <p class="infoMessage">您的实际可授信总额度,平台有权根据您的客户的信誉度进行调整，最终解释权归平台所有</p>
+            <button class="yesBtn">我知道了</button>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/jquery/1.10.0/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/circliful/1.0.2/js/jquery.circliful.js"></script>
+<script src="../javascripts/sup_amount.js"></script>
+</html>

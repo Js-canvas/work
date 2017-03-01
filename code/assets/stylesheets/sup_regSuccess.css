@@ -1,0 +1,44 @@
+#supRegSuc .header{
+    width:100%;
+    height:41px;
+}
+#supRegSuc .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+    padding-top:9px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.proMes{
+    width:90%;
+    height:30px;
+    margin:15px 5%;
+}
+.toLogin{
+    display: block;
+    line-height: 50px;
+    width:80%;
+    height:50px;
+    color:#fff!important;
+    margin:30px 10%;
+    border:0;
+    font-size: 16px;
+}

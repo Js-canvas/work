@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_bankCard.css">
+</head>
+<body>
+    <div id="supBankCard">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">银行卡绑定</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p class="tit1">为了确保资金安全到账请务必绑定自己的银行卡</p>
+            <div class="inpList">
+                <div class="inpBox">
+                    <label for="userName">账户:</label>
+                    <input type="text" id="userName" class="inp bor borR" readonly name="userName" value="13212341234">
+                </div>
+                <div class="inpBox">
+                    <label for="name">真实姓名:</label>
+                    <input type="text" id="name" class="inp bor borR" name="name" placeholder="请保证填写的是真实姓名" value="">
+                    <i class="icon txtcen" id="nameQusetion">?</i>
+                </div>
+                <div class="inpBox">
+                    <a class="aBox" href="sup_bankList.html">
+                        <label for="bank">开户银行:</label>
+                        <input type="text" id="bank" class="inp bor borR" name="bank" placeholder="目前支持收款的银行" readonly value="">
+                        <i class="icon txtcen">&gt;</i>
+                    </a>
+                </div>
+                <div class="inpBox">
+                    <label for="bankNum">银行卡号:</label>
+                    <input type="text" id="bankNum" class="inp bor borR" name="bankNum" placeholder="请填写与您姓名一致的银行卡" value="">
+                </div>
+                <div class="inpBox">
+                    <label for="phoneNum">关联手机:</label>
+                    <input type="text" id="phoneNum" class="inp bor borR" name="phoneNum" placeholder="请填写与此卡绑定的手机" value="">
+                </div>
+            </div>
+            <button class="okBtn btnStyle">保存信息</button>
+        </div>
+        <!--透明层-->
+        <div id="opacityDiv"></div>
+        <!--自定义对话框-->
+        <div class="askAlert">
+            <i class="iconImg"><img src="../images/i.png" alt=""></i>
+            <p class="info">为了能及时收到回款，请务必填写您本人的姓名以及与该姓名对应的银行卡号，不支持信用卡。如需帮助，请拨打客服电话:400-123-456</p>
+            <button class="yesBtn">好的</button>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/sup_bankCard.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_creditRecord.css">
+</head>
+<body>
+    <div id="supCreditRecord">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">客户授信记录</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p class="tit1 borBom">目前您共有<b class="recordNum">3</b>条授信记录</p>
+            <ul class="list">
+                <li class="borBom">
+                    <span>授信日期</span>
+                    <span>授信账号</span>
+                    <span>授信额度</span>
+                    <span>实得金额<i class="icon floatR">?</i></span>
+                </li>
+                <!--记录模板-->
+                <li class="borBom">
+                    <span>2017.7.1</span>
+                    <span>18612341234</span>
+                    <span>¥100000</span>
+                    <span>¥90000</span>
+                </li>
+            </ul>
+        </div>
+        <!--透明层-->
+        <div id="opacityDiv"></div>
+        <!--自定义对话框-->
+        <div class="askAlert">
+            <p class="info">实得额度是指平台对您的客户进行评估后,给予的实际可透支额度</p>
+            <button class="yesBtn">知道了</button>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/sup_creditRecord.js"></script>
+</html>

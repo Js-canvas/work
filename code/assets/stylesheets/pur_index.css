@@ -1,0 +1,194 @@
+#supIndex .header{
+    width: 100%;
+    height:185px;
+}
+#supIndex .content{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:185px;
+    bottom:53px;
+    overflow-y: scroll;
+}
+#supIndex .footer{
+    width:100%;
+    height:53px;
+    position: absolute;
+    bottom:0;
+}
+/*header*/
+.header>img{
+    width: 100%;
+    height:185px;
+}
+/*content*/
+.hasLimit{
+    width:auto;
+    height:100px;
+    margin:10px 8%;
+    display: flex;
+}
+.limit{
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.borRight{
+    border-right:1px solid #666;
+    border-color:rgba(102,102,102,0.6);
+}
+.limitTxt{
+    width:auto;
+    height:12px;
+    font:12px/12px "微软雅黑";
+    margin:15px 0 0 10px;
+    text-align: left;
+}
+.limitTxt1{
+    width:auto;
+    height:12px;
+    margin:5px 0 0 10px;
+    text-align: left;
+    color:rgba(102,102,102,0.4);
+}
+.stateInfo{
+    width:100%;
+    height:13px;
+    font:13px/13px "微软雅黑";
+    font-weight: bold;
+    position: absolute;
+    top:55%;
+    margin-top: -7px;
+}
+.changeMoney{
+    width:auto;
+    height: 11px;
+    font:11px/11px "微软雅黑";
+    color:#ff9900;
+    position: absolute;
+    bottom:15px;
+    right:10px;
+}
+.selectBox{
+    width: 75px;
+    height: 28px;
+    margin-right: 15px;
+    margin-bottom:10px;
+    position: relative;
+}
+.img{
+    position: absolute;
+    top:-1px;
+    right: 0;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.img>img{
+    width: 11px;
+    height: 28px;
+    float: left;
+}
+#select{
+    width: auto;
+    height: 28px;
+    line-height: 28px;
+}
+/*list*/
+.dataList>li{
+    overflow: hidden;
+    padding:10px 4%;
+}
+.icon{
+    margin-right:4%;
+}
+.icon>img{
+    width: 50px;
+    height: 50px;
+}
+.tit1{
+    display: inline-block;
+    width: auto;
+    height: 11px;
+    margin-top:28px;
+    color: #666666;
+}
+.tit2{
+    width: auto;
+    height: 11px;
+}
+.buyBtn{
+    width: 50px;
+    height: 30px;
+    margin:0;
+    margin-top:14px;
+}
+
+/*footer*/
+.footer ul{
+    width: 100%;
+    height: 53px;
+    display: flex;
+}
+.list{
+    position: relative;
+    flex: 1;
+    height:53px;
+}
+.list>a{
+    margin: 8px auto;
+    display: block;
+    width:25px;
+    height: 37px;
+
+}
+.list>a>p{
+    width: 25px;
+    height: 22px;
+    text-align: center;
+    margin-bottom:5px ;
+}
+.list>a>p>img{
+    width:22px;
+    height: 22px;
+}
+.list>a>span{
+    width: auto;
+    height: 10px;
+    display: block;
+    font:10px/10px "微软雅黑";
+    color:#fff;
+}
+.num{
+    width: 11px;
+    height: 11px;
+    background: #ff0000;
+    position: absolute;
+    top:6px;
+    left:56%;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

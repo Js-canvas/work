@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>完善资料</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/pur_perfectInfo.css">
+    <link rel="stylesheet" href="../stylesheets/lArea.css">
+</head>
+<body>
+    <div id="supDetail">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">完善资料</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p class="proMes">账号</p>
+            <input type="text" class="registerInp bor borR" id="phoneNum" value="12312341234" readonly>
+            <p class="proMes">密码</p>
+            <input type="password" class="registerInp bor borR" id="password" placeholder="请填写不少于6位的数字，字母或下划线">
+            <p class="proMes">名称</p>
+            <input type="text" class="registerInp bor borR" id="companyName" placeholder="请填写公司名称">
+            <p class="proMes">姓名</p>
+            <input type="text" class="registerInp bor borR" id="name" placeholder="请填写您的真实姓名">
+            <p class="proMes">所属地</p>
+            <input type="text" class="adsInp bor borR floatL" id="province" placeholder="省／直辖市" readonly>
+            <input type="text" class="adsInp bor borR floatR" id="city" placeholder="市／区" readonly>
+            <div>
+                <input type="text" class="registerInp bor borR" placeholder="详细地址" id="address">
+            </div>
+            <input type="submit" class="okBtn btnStyle" value="确定">
+            <p class="argeeMes fontMain txtcen">注册即表示同意《阿贩提用户使用协议》</p>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/pur_perfectInfo.js"></script>
+<script src="../javascripts/lArea.js"></script>
+</html>

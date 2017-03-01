@@ -1,0 +1,85 @@
+#supRepayment .header{
+    width:100%;
+    height:41px;
+}
+#supRepayment .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+    overflow-y: scroll;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.tit1,.tit2{
+    width: auto;
+    height: 11px;
+    font:11px/11px '微软雅黑';
+    margin:16px 0 0 10%;
+}
+.tit2{
+    margin:17px 0 0 10%;
+}
+.imgList{
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+}
+.imgList>img{
+    width: 60px;
+    height: 60px;
+    margin:0 5px;
+}
+.icon{
+    width: 100%;
+    height: auto;
+    margin:15px 0 10px 0;
+}
+.icon>img{
+    width: 25px;
+    height: 21px;
+    margin-left:17%;
+}
+.posir{
+    position: relative;
+}
+.inp{
+    width: 80%;
+    height: 41px;
+    margin:5px 10%;
+    font-size: 11px;
+    text-indent: 60px;
+}
+label{
+    width: auto;
+    height:11px;
+    position: absolute;
+    top:20px;
+    left:11%;
+    font:11px/11px '微软雅黑';
+}
+.okBtn{
+    margin:43px 10% 12px 10%;
+}
+.tit3{
+    font:11px/15px '微软雅黑';
+    color: #666666;
+    width: 80%;
+    margin:0 10%;
+}

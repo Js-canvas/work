@@ -1,0 +1,69 @@
+#login .header{
+    width:100%;
+    height:207px;
+    overflow: hidden;
+}
+#login .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:207px;
+    bottom:59px;
+}
+#login .footer{
+    width:100%;
+    height:59px;
+    position: absolute;
+    bottom:0;
+}
+.logo{
+    width:75px;
+    height: 75px;
+    background: #f00;
+    margin:66px;
+}
+
+/*content*/
+.loginInp{
+    width:80%;
+    height:41px;
+    font-size: 13px;
+    margin:0 10%;
+    display: block;
+    border:none;
+    border-bottom:1px solid #666;
+    border-color:rgba(102,102,102,0.6) ;
+}
+a{
+    display: block;
+    height:auto;
+}
+.forgetPw{
+    color:#ff9900;
+    float:right;
+    margin:20px 10% 0 0 ;
+    font-size: 13px;
+}
+.loginBtn{
+    width:80%;
+    height:42px;
+    color:#fff;
+    margin:18px 10% 11px 10%;
+    border:0;
+    font-size: 18px;
+}
+.toRegister{
+    width:100%;
+    color:#ff9900;
+    text-align: center;
+    font-size: 13px;
+}
+.footer p{
+    width:100%;
+    height:59px;
+    text-align: center;
+    line-height: 59px;
+    font-size: 13px;
+    color:#666;
+    opacity: 0.6;
+}

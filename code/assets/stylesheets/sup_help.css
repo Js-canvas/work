@@ -1,0 +1,33 @@
+#supHelp .header{
+    width:100%;
+    height:41px;
+}
+#supHelp .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.txt{
+    width: 80%;
+    height: 80%;
+    margin:20px 10%;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_addHost.css">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>登陆</title>
+</head>
+<body>
+    <div id="supAddHost">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">添加新客户</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <ul class="list">
+                <li class="borBom">
+                    <span>客户名称</span>
+                    <input type="text" placeholder="请填写客户的名称或公司/店名" id="hostName">
+                    <i><img src="../images/pen.png" alt=""></i>
+                </li>
+                <li class="borBom">
+                    <span>客户手机</span>
+                    <input type="text" placeholder="请填写客户的手机号码" id="hostPhone">
+                    <i><img src="../images/pen.png" alt=""></i>
+                </li>
+                <li class="borBom">
+                    <span>授信额度</span>
+                    <input type="text" placeholder="请给客户推荐可透支额度" id="creditMoney">
+                    <b>万</b>
+                    <i class="icon"><img src="../images/wenhao.png" alt=""></i>
+                </li>
+                <li class="borBom">
+                    <span>地区</span>
+                    <div class="box1 bor borR floatL">
+                        <label for="province" class="downIcon txtcen">▼</label>
+                        <select name="province" id="province"></select>
+                    </div>
+                    <div class="box2 bor borR floatL">
+                        <label for="city" class="downIcon txtcen">▼</label>
+                        <select name="city" id="city"></select>
+                    </div>
+                    <i><img src="../images/pen.png" alt=""></i>
+                </li>
+            </ul>
+            <button class="okBtn btnStyle">保存并邀请</button>
+        </div>
+        <!--透明层-->
+        <div id="opacityDiv"></div>
+        <!--自定义对话框-->
+        <div class="askAlert">
+            <i class="alertTit">温馨提示</i>
+            <p class="infoMessage">您给客户授信的额度不能超过您的当前剩余的可授信额度，客户通过您注册的邀请后平台会对该客户进行风评后再给予实际可透支额度，您邀请时的授信额度仅供参考!</p>
+            <button class="yesBtn">我知道了</button>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/tools/PCASClass.js"></script>
+<script type="text/javascript" src="../javascripts/sup_addHost.js"></script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta charset="UTF-8">
+    <title>完善资料</title>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/pur_placeOrder.css">
+</head>
+<body>
+    <div id="purOrder">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">下单中心</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <div class="box borBom">
+                <div class="floatL logo">
+                    <img src="../images/logo.png" alt="">
+                </div>
+                <div class="floatL info">
+                    <p class="companyName font11">北方科技公司<span class="floatR">联系方式：<i class="phone">18777777777</i></span></p>
+                    <p class="tit1 font11">行业：<span class="profession">生活服务类</span></p>
+                    <p class="tit2 fontRed">您在该供货商的可透支金额为<span class="overdraft">¥30000.00</span></p>
+                    <p class="tit2 fontRed marT5">当月剩余：<span class="surplus">¥20000.00</span></p>
+                </div>
+            </div>
+            <!--list-->
+            <p class="tit3">订单详情填写</p>
+            <div id="wrap">
+                <div class="list">
+                <div class='borBom clearB borLine1'></div>
+                <ul>
+                    <li>
+                        <div>
+                            <span class="txt font11">商品名称：</span><input type="text" class="bor borR inp" placeholder="请填写您购买商品的名称">
+                        </div>
+                        <div>
+                            <span class="txt font11">单品价格：</span><b class="iconM">¥</b><input type="text" class="bor borR inp" placeholder="请填写您与采购商约定的单价">
+                        </div>
+                        <div>
+                            <span class="txt font11">商品数量：</span><input type="text" class="bor borR inp" placeholder="请输入您购买此商品的数量">
+                        </div>
+                        <div>
+                            <span class="txt font11">合计金额：</span><input type="text" class="bor borR inp" placeholder="¥9000.00">
+                        </div>
+                    </li>
+                </ul>
+                <div class="deleteBox">
+                    <img src="../images/delete.png" alt="" class="floatL">
+                </div>
+            </div>
+            </div>
+            <div class="addBtn borR bor floatR">
+                <img src="../images/add.png" alt="" class="floatL">
+                <span class="btnWord floatL font11">继续添加商品</span>
+            </div>
+            <div class="borBom clearB borLine"></div>
+            <div class="detailInfo font11">
+                <ul>
+                    <li class="selLi">
+                        <span class="txt">收货店址：</span>
+                        <select name="" id="" class="bor borR inp secInp">
+                            <option value="">请选择收货店面</option>
+                        </select>
+                        <i ><img src="../images/down.png" alt="" class="borR"></i>
+                    </li>
+                    <li>
+                        <span class="txt">还款周期：</span><input type="text" class="bor borR inp" placeholder="请填写您想还款的周期"><b class="iconD">天</b>
+                    </li>
+                    <li>
+                        <span class="txt widTxt">运费：</span><input type="text" class="bor borR inp" placeholder="如果您与供货商约定了运费请输入">
+                    </li>
+                    <li>
+                        <span class="txt">订单总金额：</span><input type="text" class="bor borR inp widInp" placeholder="¥1800.00">
+                    </li>
+                </ul>
+                <button class="okBtn btnStyle">提交订单</button>
+                <div class="txtcen">
+                    <p class="txt3">我已阅读并同意签署以下内容<i class="dgIcon" ><img src="../images/checked.png" alt=""></i></p>
+                </div>
+                <p class="txt4 clearB txtcen">《购销合同》</p>
+                <p class="txt5 txtcen">《应收账款债权转让通知书》</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/pur_placeOrder.js"></script>
+</html>

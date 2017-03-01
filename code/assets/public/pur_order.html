@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>订单中</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/pur_order.css">
+</head>
+<body>
+    <div id="supOrder">
+        <!--header-->
+        <div class="header bg">
+            <p>订单中心</p>
+        </div>
+        <!--content-->
+        <div class="content">
+            <div class="tab">
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#move" data-toggle="tab">进行中</a></li>
+                    <li><a href="#success" data-toggle="tab">已完成</a></li>
+                    <li><a href="#close" data-toggle="tab">已关闭</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <!--进行中-->
+                    <div class="tab-pane fade in active" id="move">
+                        <ul id="mySecTab" class="nav nav-tabs">
+                            <li class="active"><a href="#waitOk" data-toggle="tab"><span class="orderNum">1</span><b>待确认</b></a></li>
+                            <li><a href="#waitRepay" data-toggle="tab"><span class="orderNum">1</span><b>待还款</b></a></li>
+                            <li><a href="#repay" data-toggle="tab"><span class="orderNum">1</span><b>已逾期</b></a></li>
+                        </ul>
+                        <div id="mySecTabContent" class="tab-content">
+                            <div class="tab-pane fade in active" id="waitOk">
+                                <!--订单模板-->
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">待确认</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="companyName">XXX有限公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="orderSum">
+                                            <span>共<b class="orderProNum">一</b>种商品，订单总金额 ¥<b class="orderProMoney">1000000.00</b></span>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">取消订单</button>
+                                        </div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                        <div class="orderInfo">
+                                            正在等待供货商确认金额......
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">待确认</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="companyName">XXX有限公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="orderSum">
+                                            <span>共<b class="orderProNum">一</b>种商品，订单总金额 ¥<b class="orderProMoney">1000000.00</b></span>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">取消订单</button>
+                                        </div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                        <div class="orderInfo">
+                                            正在等待供货商确认金额......
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">待确认</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="companyName">XXX有限公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="orderSum">
+                                            <span>共<b class="orderProNum">一</b>种商品，订单总金额 ¥<b class="orderProMoney">1000000.00</b></span>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">取消订单</button>
+                                        </div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                        <div class="orderInfo">
+                                            正在等待供货商确认金额......
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">待确认</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="companyName">XXX有限公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="orderSum">
+                                            <span>共<b class="orderProNum">一</b>种商品，订单总金额 ¥<b class="orderProMoney">1000000.00</b></span>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">取消订单</button>
+                                        </div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                        <div class="orderInfo">
+                                            正在等待供货商确认金额......
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="waitRepay">
+                                <!--订单模板-->
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">待还款</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="companyName">XXX科技公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">提交还款证明</button>
+                                        </div>
+                                        <div class="orderRepaySum">
+                                            待还款金额：¥<span class="repayMoney">10000.00</span>
+                                        </div>
+                                        <div class="rpDate">还款日期：<span class="repayDate">2016.8.9</span></div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="repay">
+                                <!--订单模板-->
+                                <div class="orderDetail">
+                                    <div class="orderHeader">
+                                        <span class="orderCode">DJ.20101218.001</span>
+                                        <span class="orderState">已逾期</span>
+                                    </div>
+                                    <div class="orderContent">
+                                        <div class="orderName">供货商名称：<span class="supCompanyName">XXX科技有限公司</span></div>
+                                        <div class="timeIcon">
+                                            <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                            <p class="nextIcon">&gt;</p>
+                                        </div>
+                                        <div class="submitBtn">
+                                            <button class="subBtn">提交还款证明</button>
+                                        </div>
+                                        <div class="orderRepaySum">
+                                            待还款金额：¥<span class="repayMoney">10000.00</span>
+                                        </div>
+                                        <div class="rpDate">还款日期：<span class="repayDate">2016.8.9</span></div>
+                                        <div class="repay">
+                                            <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--已完成-->
+                    <div class="tab-pane fade in" id="success">
+                        <div class="sucHeader">
+                            <p>已完成订单数量 <span class="sucOrderNum">2</span></p>
+                        </div>
+                        <div class="sucDetail">
+                            <!--订单模板-->
+                            <div class="orderDetail">
+                                <div class="orderHeader">
+                                    <span class="orderCode">DJ.20101218.001</span>
+                                    <span class="orderState">已完成</span>
+                                </div>
+                                <div class="orderContent">
+                                    <div class="orderName">供货商名称：<span class="companyName">XXX科技公司</span></div>
+                                    <div class="timeIcon">
+                                        <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                        <p class="nextIcon">&gt;</p>
+                                    </div>
+                                    <div class="orderSum">
+                                        <span>共<b class="orderProNum">一</b>种商品，订单总金额¥<b class="orderProMoney">1000000.00</b></span>
+                                    </div>
+                                    <div class="getRealMoney">实得金额：¥<span class="realMoney">9850.00</span></div>
+                                    <div class="repay">
+                                        <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--已关闭-->
+                    <div class="tab-pane fade in" id="close">
+                        <div class="closeHeader">
+                            <p>已关闭订单数量 <span class="closeOrderNum">2</span></p>
+                        </div>
+                        <div class="closeDetail">
+                            <!--订单模板-->
+                            <div class="orderDetail">
+                                <div class="orderHeader">
+                                    <span class="orderCode">DJ.20101218.001</span>
+                                    <span class="orderState">已关闭</span>
+                                </div>
+                                <div class="orderContent">
+                                    <div class="orderName">供货商名称：<span class="companyName">XXX科技公司</span></div>
+                                    <div class="timeIcon">
+                                        <div class="orderTime">下单时间：<span class="orderDate">2017.1.7  15:24:08</span></div>
+                                        <p class="nextIcon">&gt;</p>
+                                    </div>
+                                    <div class="orderSum">
+                                        <span>共<b class="orderProNum">一</b>种商品，订单总金额¥<b class="orderProMoney">1000000.00</b></span>
+                                    </div>
+                                    <div class="repay">
+                                        <span>还款周期：<i class="orderRepay">30</i>天</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer bg">
+            <ul>
+                <li class="list txtcen">
+                    <a href="javascript:;">
+                        <p><img src="../images/index.png" class="listIcon"></p>
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li class="list txtcen">
+                    <a href="javascript:;">
+                        <p><img src="../images/ordered.png" class="listIcon"></p>
+                        <span>订单</span>
+                    </a>
+                </li>
+                <li class="list txtcen">
+                    <a href="javascript:;">
+                        <b class="num font11"></b>
+                        <p><img src="../images/message.png" class="listIcon"></p>
+                        <span>消息</span>
+                    </a>
+                </li>
+                <li class="list txtcen">
+                    <a href="javascript:;">
+                        <p><img src="../images/host.png" class="listIcon"></p>
+                        <span>客户</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="../javascripts/pur_order.js"></script>
+</html>

@@ -1,0 +1,50 @@
+#supChangePw .header{
+    width:100%;
+    height:41px;
+}
+#supChangePw .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+    padding-top:25px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    text-align: center;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.rowInp{
+    width: 100%;
+    height: 42px;
+    margin-top:10px;
+}
+.info{
+    font:12px/42px '微软雅黑';
+    width: auto;
+    height: 42px;
+    margin:14px 0 0 15px;
+}
+input{
+    width: 68%;
+    height: 40px;
+    margin-right: 15px;
+    text-indent: 5px;
+}
+.okBtn{
+    margin:30px 10%;
+    font-size:16px;
+}

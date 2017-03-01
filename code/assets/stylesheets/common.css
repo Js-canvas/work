@@ -1,0 +1,65 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
+.clear{height:1px;overflow:hidden;clear:both;}
+a,img{border:0;}
+a{text-decoration: none;}
+a:focus{text-decoration: none;}
+li{list-style-type:none;}
+input,button,textarea,select,option:focus{outline:none;}
+body,html{height:100%;}
+i,em{font-style: normal}
+b,strong{font-weight: normal}
+a:link,a:visited,a:hover,a:active{color:#000;}
+
+.fontRed{
+    color:#cd2f2f;
+}
+.fontMain{
+    color:#ff9900!important;
+}
+.bg{
+    background: #ff9900;
+}
+.borTop{
+    border-top:1px solid #666666;
+    border-color: rgba(102,102,102,0.6);
+}
+.borBom{
+    border-bottom:1px solid #666666;
+    border-color: rgba(102,102,102,0.6);
+}
+.borBomD{
+    border-bottom:1px dashed #666666;
+    border-color: rgba(102,102,102,0.2);
+}
+.bor{
+    border:1px solid #666666;
+    border-color: rgba(102,102,102,0.6);
+}
+.font11{
+    font:11px/11px '微软雅黑';
+}
+.floatR{
+    float:right;
+}
+.floatL{
+    float:left;
+}
+.clearB{
+    clear:both;
+}
+.borR{
+    border-radius: 2px;
+}
+.btnStyle{
+    width: 80%;
+    height: 40px;
+    background: #ff9900;
+    border:0;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+    margin:0 10%;
+}
+.txtcen{
+    text-align: center;
+}

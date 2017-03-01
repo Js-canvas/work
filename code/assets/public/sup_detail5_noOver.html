@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>订单中</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/sup_detail5_noOver.css">
+</head>
+<body>
+<div id="supDetail5No">
+    <!--header-->
+    <div class="header bg">
+        <a href="javascript:;" class="reback txtcen">&lt;</a>
+        <span class="tit txtcen">订单详情</span>
+    </div>
+    <!--content-->
+    <div class="content">
+        <!--第一部分-->
+        <div class="orderStateBox borBom txtcen">
+            <p class="txt1">订单状态：</p><span class="state fontRed">已逾期</span>
+            <p class="txt2">请在逾期日前还款否则将支付额外的违约金</p>
+            <div class="stateBtn">
+                <button class="agree bg borR">提交还款证明</button>
+            </div>
+        </div>
+        <!--第二部分-->
+        <div class="orderInfoBox borBom">
+            <div>
+                <span class="tit1">收货人：</span><span class="companyName">兄弟连饭馆</span><span class="phoneNum floatR">13212341234</span>
+            </div>
+            <div>
+                <span class="tit2">收货地址：</span><span class="ads">北京市昌平去XXX路XXX院</span>
+            </div>
+            <div>
+                <button class="contentSup bg floatR borR">联系采购商</button>
+            </div>
+            <div class="clearB">
+                <span class="tit3">还款周期：</span><span class="repayDate">30天</span>
+            </div>
+        </div>
+        <!--第三部分-->
+        <div class="orderDetailBox borTop">
+            <ul class="borBom">
+                <li class="borBomD">
+                    <div class="order">
+                        <div>
+                            <span class="mes1">商品名称：</span><span class="proName">茅台酒500ml</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes2">商品单价：</span><span class="proPrice">¥100.00</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes3">商品数量：</span><span class="proNum">*100</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes4">合计金额：</span><span class="proSum">¥10000.00</span>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="borBomD">
+                    <div class="order">
+                        <div>
+                            <span class="mes1">商品名称：</span><span class="proName">茅台酒500ml</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes2">商品单价：</span><span class="proPrice">¥100.00</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes3">商品数量：</span><span class="proNum">*100</span>
+                        </div>
+                        <div class="cle">
+                            <span class="mes4">合计金额：</span><span class="proSum">¥10000.00</span>
+                        </div>
+
+                    </div>
+                </li>
+                <div>
+                    <b class="mes5">运费</b><b class="transMoney">¥100.00</b>
+                </div>
+            </ul>
+            <div>
+                <b class="mes6">订单金额</b><b class="sumMoney fontRed">¥10100.00</b>
+            </div>
+            <div>
+                <b class="mes7">逾期天数：</b><b class="dayNum fontRed">3</b>
+            </div>
+            <div class="posr">
+                <b class="mes8">待还金额：</b><b class="repayMon fontRed">¥11000.00</b><i class="icon"><img src="../images/wenhao.png" alt=""></i>
+            </div>
+            <div>
+                <b class="mes9">收款人：</b><b class="repayMan">XXX公司</b>
+            </div>
+            <div>
+                <b class="mes10">收款卡号：</b><b class="bankCardNum">6666666666666666666</b>
+            </div>
+            <div>
+                <b class="mes11">收款日：</b><b class="repayDataNum">2017.8.9</b>
+            </div>
+
+        </div>
+        <!--第四部分-->
+        <div class="orderMesBox borTop">
+            <div>
+                <span class="info1">订单编号：</span><span class="orderCode">DJ.20161218.001</span>
+            </div>
+            <div>
+                <span class="info2">下单账号：</span><span class="orderUser">13212341234</span>
+            </div>
+            <div>
+                <span class="info3">下单事件：</span><span class="orderTime">2018-8-15 18:07:08</span>
+            </div>
+            <div>
+                <span class="info4">订单来源：</span><span class="orderWay">采购宝微信版</span>
+            </div>
+        </div>
+    </div>
+    <!--透明层-->
+    <div id="opacityDiv"></div>
+    <!--自定义对话框-->
+    <div class="askAlert">
+        <i class="alertTit">实际还款金额为：</i>
+        <p class="infoMessage">订单金额+订单金额*逾期天数*2倍利率所得，还款日到后7天之内还清订单金额不会计算违约金！</p>
+        <button class="yesBtn">我知道了</button>
+    </div>
+</div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/sup_detail5_noOver.js"></script>
+</html>

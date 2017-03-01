@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<head>
+    <link rel="stylesheet" href="../stylesheets/common.css">
+    <link rel="stylesheet" href="../stylesheets/forgetPw.css">
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+</head>
+<body>
+    <div id="forget">
+        <!--header-->
+        <div class="header bg">
+            <a href="javascript:;" class="reback txtcen">&lt;</a>
+            <span class="tit txtcen">忘记密码</span>
+        </div>
+        <!--content-->
+        <div class="content">
+            <p class="proMes">重新设置登陆密码</p>
+            <input type="text" class="forgetInp" id="userName" placeholder="请输入您的手机号码">
+            <input type="text" class="forgetInp floatL" id="messageNum" placeholder="请输入短信验证码">
+            <button id="getNum">获取验证码</button>
+            <input type="password" class="forgetInp" id="newPw" placeholder="请填写不少于6位的数字，字母或下划线">
+            <input type="submit" class="okBtn bg txtcen borR" value="确定">
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
+<script src="../javascripts/forgetPw.js"></script>
+</html>

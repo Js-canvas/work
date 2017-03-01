@@ -1,0 +1,72 @@
+#supInvite .header{
+    width:100%;
+    height:41px;
+}
+#supInvite .content{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:41px;
+    bottom:0px;
+}
+.header a{
+    display: inline-block;
+    width:10%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+.tit{
+    display: inline-block;
+    width:80%;
+    height:41px;
+    line-height: 41px;
+    font-size: 13px;
+    color:#fff;
+}
+/*content*/
+.tit1{
+    font:11px/11px '微软雅黑';
+    margin-top:40px;
+}
+.tit2{
+    margin-top:60px;
+    font:15px/15px '微软雅黑';
+}
+.code{
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+}
+.code>img{
+    width: 179px;
+    height:179px ;
+}
+.tit3{
+    margin-top:15px;
+    font:14px/14px '微软雅黑';
+}
+.tit4{
+    margin-top: 15px;
+    font:14px/14px '微软雅黑';
+}
+.inviteCode{
+    font:12px/12px '微软雅黑';
+    color: #cd2f2f;
+}
+.moreInvite{
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    background: #ff9900;
+    color: #ffffff;
+    border-radius: 2px;
+    font:14px/40px '微软雅黑';
+    margin-top:60px;
+}
+.tit5{
+    margin-top:15px;
+    font:12px/12px '微软雅黑';
+    color:#666;
+}
