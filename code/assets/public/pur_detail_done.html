@@ -6,10 +6,10 @@
     <title>订单中</title>
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="../stylesheets/common.css">
-    <link rel="stylesheet" href="../stylesheets/sup_detail_done.css">
+    <link rel="stylesheet" href="../stylesheets/pur_detail_done.css">
 </head>
 <body>
-    <div id="supDetailDone">
+    <div id="purDetailDone">
         <!--header-->
         <div class="header bg">
             <a href="javascript:;" class="reback txtcen">&lt;</a>
@@ -20,21 +20,40 @@
             <!--第一部分-->
             <div class="orderStateBox borBom">
                 <p class="txt1">订单状态：</p><span class="state fontRed">已完成</span>
-                <div>
-               	 	<p class="txt2">您的本次交易已完成</p>
-                </div>
-
+                <div class="borBottom">
+                        <div class="textLeft">
+                            <p class="proveTit">还款快照：</p>
+                        </div>
+                        <div class="imgList">
+                            <img src="../images/undefined.png" alt="">
+                            <img src="../images/undefined.png" alt="">
+                            <img src="../images/undefined.png" alt="">
+                            <img src="../images/undefined.png" alt="">
+                        </div>
+                        <div class="textLeft">
+                            <span class="txt3">还款方式：</span><span class="repayWay">支付宝</span>
+                        </div>
+                        <div class="textLeft">
+                            <span class="txt4">还款人：</span><span class="whoRepay">路人甲</span>
+                        </div>
+                        <div class="textLeft">
+                            <span class="txt5">还款金额：</span><span class="repayMoney">¥100000.00</span>
+                        </div>
+                        <div class="textLeft">
+                            <span class="txt6">还款账号：</span><span class="repayNum">987987987@qq.com</span>
+                        </div>
+                    </div>
             </div>
             <!--第二部分-->
             <div class="orderInfoBox borBom">
                 <div>
-                    <span class="tit1">收货人：</span><span class="companyName">兄弟连饭馆</span><span class="phoneNum">13212341234</span>
+                    <span class="tit1">供货商名称：</span><span class="companyName">XXXX科技有限公司</span><span class="phoneNum">13212341234</span>
                 </div>
                 <div>
                     <span class="tit2">收货地址：</span><span class="ads">北京市昌平去XXX路XXX院</span>
                 </div>
                 <div>
-                    <button class="contentSup bg borR">联系采购商</button>
+                    <button class="contentSup bg borR">联系供货商</button>
                 </div>
                 <div class="clearB">
                     <span class="tit3">还款周期：</span><span class="repayDate">30天</span>
@@ -85,10 +104,13 @@
                     <b class="mes6">订单金额</b><b class="sumMoney fontRed">¥10100.00</b>
                 </div>
                 <div>
-                    <b class="mes6">日利率：</b><b class="dayRate fontRed">0.05%</b>
+                    <b class="mes6">逾期天数：</b><b class="dayNum fontRed">0</b>
                 </div>
                 <div>
-                    <b class="mes6">实际收入：</b><b class="realGet fontRed">¥8900.00</b>
+                    <b class="mes6">还款金额：</b><b class="realGet fontRed">¥8900.00</b>
+                </div>
+                <div>
+                    <b class="mes6">收款人：</b><b class="getCompany">xxx公司</b>
                 </div>
                 <div>
                     <b class="mes6">收款卡号：</b><b class="bankCardNum">6666666666666666666</b>
@@ -116,5 +138,5 @@
     </div>
 </body>
 <script src="//cdn.bootcss.com/zepto/1.1.6/zepto.js"></script>
-<script src="../javascripts/sup_detail_done.js"></script>
+<script src="../javascripts/pur_detail_done.js"></script>
 </html>
